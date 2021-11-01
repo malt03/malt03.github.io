@@ -21,7 +21,7 @@ async function initPlayer() {
   player.configure({streaming: {useNativeHlsOnSafari: false}});
   player.getNetworkingEngine().registerRequestFilter(function(type, request) {
     console.info(type, request);
-    request.headers["hdnts"] = "exp=1635747026~acl=/video/gKPbFdVZGajsBaGyKXHN-uez2h/0FVaJajev6YdyD43CK2eQLXO/8v5X4HFv2kGu8yPQflB2Zuq6/*~hmac=6d4f9ffad7fe7188bd6a7a1e8df02fbd96652b556112a8231a4be53cebdd7b59";
+    request.headers["hdnts"] = "exp=1635747683~acl=/video/gKPbFdVZGajsBaGyKXHN-uez2h/0FVaJajev6YdyD43CK2eQLXO/8v5X4HFv2kGu8yPQflB2Zuq6/*~hmac=4ce155eee872a3a03ef740ed15de2a0ef7f9aa68a5fade26b288196bfb1dec59";
   });
 
   // Attach player to the window to make it easy to access in the JS console.
